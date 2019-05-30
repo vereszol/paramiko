@@ -35,6 +35,9 @@ Required packages:
 
 To install the development version, ``pip install -e
 git+https://github.com/paramiko/paramiko/#egg=paramiko``.
+
+Version 2.4.0b1 is including https://github.com/paramiko/paramiko/pull/930
+on top of 2.4.0.
 '''
 
 
