@@ -34,6 +34,9 @@ versioned docs <https://docs.paramiko.org>`_. Additionally, the project
 maintainer keeps a `roadmap <http://bitprophet.org/projects#roadmap>`_ on his
 personal site.
 
+Version 3.5.1.post1 is including https://github.com/paramiko/paramiko/pull/930
+on top of 3.5.1.
+
 .. [#]
     Paramiko relies on `cryptography <https://cryptography.io>`_ for crypto
     functionality, which makes use of C and Rust extensions but has many

@@ -595,6 +595,9 @@ class SSHClient(ClosingContextManager):
         :return: a new `.Channel` connected to the remote shell
 
         :raises: `.SSHException` -- if the server fails to invoke a shell
+
+        .. versionchanged:: 3.5.1.post1
+            Added the ``timeout`` arg.
         """
         chan = self._transport.open_session(timeout=timeout)
         chan.get_pty(term, width, height, width_pixels, height_pixels)
