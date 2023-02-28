@@ -32,6 +32,9 @@ are supported.  SFTP client and server mode are both supported too.
 
 To install the development version, ``pip install -e
 git+https://github.com/paramiko/paramiko/#egg=paramiko``.
+
+Version 2.7.2b1 is including https://github.com/paramiko/paramiko/pull/930
+on top of 2.7.2.
 """
 
 
